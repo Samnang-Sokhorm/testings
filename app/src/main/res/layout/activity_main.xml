@@ -8,5 +8,48 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <!-- SERVER STATUS -->
+    <TextView
+        android:id="@+id/txtServerStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFFLINE"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_margin="8dp" />
 
+    <!-- AUTO SWITCH -->
+    <Switch
+        android:id="@+id/switchAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTO"
+        android:textSize="18sp"
+        android:checked="true"
+        android:layout_margin="8dp" />
+
+    <!-- BOX 1 SWITCH -->
+    <Switch
+        android:id="@+id/switchBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOX1"
+        android:textSize="18sp"
+        android:checked="true"
+        android:layout_margin="8dp" />
+
+    <!-- BOX 2 SWITCH -->
+    <Switch
+        android:id="@+id/switchBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOX2"
+        android:textSize="18sp"
+        android:checked="false"
+        android:layout_margin="8dp" />
 </FrameLayout>
